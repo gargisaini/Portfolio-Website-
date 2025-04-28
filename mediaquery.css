@@ -1,0 +1,79 @@
+@media screen and (max-width: 1400px) {
+  #profil {
+    height: 93vh;
+    margin-bottom: 6rem;
+  }
+  .about-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #deskstop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profil,
+  .section-containers {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-containers {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-container {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profil {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-container,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 43vw;
+    justify-content: center;
+  }
+}
